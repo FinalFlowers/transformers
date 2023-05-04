@@ -74,7 +74,6 @@ class LlamaTokenizerFast(PreTrainedTokenizerFast):
 
     vocab_files_names = VOCAB_FILES_NAMES
     slow_tokenizer_class = LlamaTokenizer
-    padding_side = "left"
 
     def __init__(
         self,
